@@ -55,5 +55,5 @@ data = {"serv_capa": serv_capa,
 	"vel_at_edge": vel_at_edge }
 
 
-with open('Edge36Data.json', 'w') as f:
+with  open('Edge36Data.json', 'w') as f:
     json.dump(data, f)	
